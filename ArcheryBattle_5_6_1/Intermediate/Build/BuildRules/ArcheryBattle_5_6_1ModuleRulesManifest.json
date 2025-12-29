@@ -1,0 +1,10 @@
+{
+	"SourceFiles": [
+		"E:\\UEProjects\\TwoPersonArcheryBattle5-6-1\\ArcheryBattle_5_6_1\\Intermediate\\Source\\ArcheryBattle_5_6_1.Build.cs",
+		"E:\\UEProjects\\TwoPersonArcheryBattle5-6-1\\ArcheryBattle_5_6_1\\Intermediate\\Source\\ArcheryBattle_5_6_1.Target.cs",
+		"E:\\UEProjects\\TwoPersonArcheryBattle5-6-1\\ArcheryBattle_5_6_1\\Intermediate\\Source\\ArcheryBattle_5_6_1Client.Target.cs",
+		"E:\\UEProjects\\TwoPersonArcheryBattle5-6-1\\ArcheryBattle_5_6_1\\Intermediate\\Source\\ArcheryBattle_5_6_1Editor.Target.cs",
+		"E:\\UEProjects\\TwoPersonArcheryBattle5-6-1\\ArcheryBattle_5_6_1\\Intermediate\\Source\\ArcheryBattle_5_6_1Server.Target.cs"
+	],
+	"EngineVersion": "5.6.1"
+}
