@@ -1,0 +1,14 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "e:\\ueprojects\\twopersonarcherybattle5-6-1\\archerybattle_5_6_1\\intermediate\\build\\win64\\x64\\unrealgame\\development\\archerybattle_5_6_1\\module.archerybattle_5_6_1.cpp",
+        "ProvidedModule": "",
+        "PCH": "e:\\ueprojects\\twopersonarcherybattle5-6-1\\archerybattle_5_6_1\\intermediate\\build\\win64\\x64\\archerybattle_5_6_1\\development\\core\\sharedpch.core.project.valapi.valexpapi.cpp20.h.pch",
+        "Includes": [
+            "e:\\ueprojects\\twopersonarcherybattle5-6-1\\archerybattle_5_6_1\\intermediate\\build\\win64\\x64\\unrealgame\\development\\archerybattle_5_6_1\\definitions.archerybattle_5_6_1.h",
+            "e:\\ueprojects\\twopersonarcherybattle5-6-1\\archerybattle_5_6_1\\intermediate\\source\\archerybattle_5_6_1.cpp"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

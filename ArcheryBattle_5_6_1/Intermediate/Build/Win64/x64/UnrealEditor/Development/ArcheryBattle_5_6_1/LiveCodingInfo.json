@@ -1,0 +1,9 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.ArcheryBattle_5_6_1.cpp.obj": [
+			"PerModuleInline.gen.cpp.obj",
+			"ArcheryBattle_5_6_1.cpp.obj"
+		]
+	}
+}

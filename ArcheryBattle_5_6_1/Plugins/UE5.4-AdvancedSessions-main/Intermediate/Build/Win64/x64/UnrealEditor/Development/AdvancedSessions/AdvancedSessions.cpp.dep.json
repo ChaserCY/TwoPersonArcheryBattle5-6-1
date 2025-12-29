@@ -1,0 +1,14 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "e:\\ueprojects\\twopersonarcherybattle5-6-1\\archerybattle_5_6_1\\plugins\\ue5.4-advancedsessions-main\\source\\advancedsessions\\private\\advancedsessions.cpp",
+        "ProvidedModule": "",
+        "PCH": "e:\\ueprojects\\twopersonarcherybattle5-6-1\\archerybattle_5_6_1\\intermediate\\build\\win64\\x64\\archerybattle_5_6_1editor\\development\\unrealed\\sharedpch.unrealed.project.valapi.valexpapi.cpp20.h.pch",
+        "Includes": [
+            "e:\\ueprojects\\twopersonarcherybattle5-6-1\\archerybattle_5_6_1\\plugins\\ue5.4-advancedsessions-main\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\advancedsessions\\definitions.advancedsessions.h",
+            "e:\\ueprojects\\twopersonarcherybattle5-6-1\\archerybattle_5_6_1\\plugins\\ue5.4-advancedsessions-main\\source\\advancedsessions\\classes\\advancedsessions.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

@@ -465,6 +465,7 @@
 /game/thirdperson/lvl_thirdperson
 /game/thirdperson/mi_thirdpersoncolway
 /game/widget/t_sgfjdepc_2k_b-o
+/game/widget/w_findip
 /game/widget/w_gamebegin
 /game/widget/w_joingame
 /game/widget/w_mainmenu
