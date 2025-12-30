@@ -1262,8 +1262,8 @@ ConfigSystem.<Editor>.Engine:/Script/Engine.NetworkSettings:NetworkEmulationProf
 ConfigSystem.<Editor>.Engine:/Script/Engine.OnlineEngineInterface:ClassName:0=/Script/OnlineSubsystemUtils.OnlineEngineInterfaceImpl
 ConfigSystem.<Editor>.Engine:/Script/Engine.PhysicsSettings:bEnable2DPhysics:0=false
 ConfigSystem.<Editor>.Engine:/Script/Engine.PhysicsSettings:DefaultGravityZ:0=-980.0
-ConfigSystem.<Editor>.Engine:/Script/Engine.Player:ConfiguredInternetSpeed:0=10485760
-ConfigSystem.<Editor>.Engine:/Script/Engine.Player:ConfiguredLanSpeed:0=10485760
+ConfigSystem.<Editor>.Engine:/Script/Engine.Player:ConfiguredInternetSpeed:0=100000
+ConfigSystem.<Editor>.Engine:/Script/Engine.Player:ConfiguredLanSpeed:0=100000
 ConfigSystem.<Editor>.Engine:/Script/Engine.PlayerCameraManager:ServerUpdateCameraTimeout:0=2.0
 ConfigSystem.<Editor>.Engine:/Script/Engine.RendererSettings:MaxSkinBones:0=(Default=65536,PerPlatform=(("Mobile", 256)))
 ConfigSystem.<Editor>.Engine:/Script/Engine.RendererSettings:r.AllowStaticLighting:0=False
@@ -1462,12 +1462,12 @@ ConfigSystem.<Editor>.Engine:/Script/NavigationSystem.RecastNavMesh:TileSizeUU:0
 ConfigSystem.<Editor>.Engine:/Script/OnlineSubsystemUtils.IpNetDriver:ConnectionTimeout:0=60.0
 ConfigSystem.<Editor>.Engine:/Script/OnlineSubsystemUtils.IpNetDriver:InitialConnectTimeout:0=60.0
 ConfigSystem.<Editor>.Engine:/Script/OnlineSubsystemUtils.IpNetDriver:KeepAliveTime:0=0.2
-ConfigSystem.<Editor>.Engine:/Script/OnlineSubsystemUtils.IpNetDriver:MaxClientRate:0=10485760
-ConfigSystem.<Editor>.Engine:/Script/OnlineSubsystemUtils.IpNetDriver:MaxInternetClientRate:0=10485760
-ConfigSystem.<Editor>.Engine:/Script/OnlineSubsystemUtils.IpNetDriver:MaxNetTickRate:0=100
+ConfigSystem.<Editor>.Engine:/Script/OnlineSubsystemUtils.IpNetDriver:MaxClientRate:0=100000
+ConfigSystem.<Editor>.Engine:/Script/OnlineSubsystemUtils.IpNetDriver:MaxInternetClientRate:0=100000
+ConfigSystem.<Editor>.Engine:/Script/OnlineSubsystemUtils.IpNetDriver:MaxNetTickRate:0=120
 ConfigSystem.<Editor>.Engine:/Script/OnlineSubsystemUtils.IpNetDriver:MaxPortCountToTry:0=512
 ConfigSystem.<Editor>.Engine:/Script/OnlineSubsystemUtils.IpNetDriver:NetConnectionClassName:0=/Script/OnlineSubsystemUtils.IpConnection
-ConfigSystem.<Editor>.Engine:/Script/OnlineSubsystemUtils.IpNetDriver:NetServerMaxTickRate:0=60
+ConfigSystem.<Editor>.Engine:/Script/OnlineSubsystemUtils.IpNetDriver:NetServerMaxTickRate:0=30
 ConfigSystem.<Editor>.Engine:/Script/OnlineSubsystemUtils.IpNetDriver:RecentlyDisconnectedTrackingTime:0=120
 ConfigSystem.<Editor>.Engine:/Script/OnlineSubsystemUtils.IpNetDriver:RelevantTimeout:0=5.0
 ConfigSystem.<Editor>.Engine:/Script/OnlineSubsystemUtils.IpNetDriver:ResolutionConnectionTimeout:0=20.0
