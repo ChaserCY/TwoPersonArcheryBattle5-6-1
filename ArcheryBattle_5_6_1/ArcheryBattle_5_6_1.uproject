@@ -18,10 +18,6 @@
 		{
 			"Name": "AdvancedSessions",
 			"Enabled": false
-		},
-		{
-			"Name": "OnlineSubsystemSteam",
-			"Enabled": true
 		}
 	]
 }
