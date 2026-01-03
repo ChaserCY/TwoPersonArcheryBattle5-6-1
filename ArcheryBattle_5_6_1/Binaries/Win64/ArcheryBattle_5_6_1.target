@@ -67,10 +67,6 @@
 			"Type": "NonUFS"
 		},
 		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/Steamworks/Steamv157/Win64/steam_api64.dll",
-			"Type": "NonUFS"
-		},
-		{
 			"Path": "$(EngineDir)/Binaries/ThirdParty/Vorbis/Win64/VS2015/libvorbis_64.dll",
 			"Type": "NonUFS"
 		},
@@ -3535,10 +3531,6 @@
 			"Type": "UFS"
 		},
 		{
-			"Path": "$(EngineDir)/Plugins/Online/OnlineSubsystemSteam/OnlineSubsystemSteam.uplugin",
-			"Type": "UFS"
-		},
-		{
 			"Path": "$(EngineDir)/Plugins/Online/OnlineSubsystemUtils/OnlineSubsystemUtils.uplugin",
 			"Type": "UFS"
 		},
@@ -3676,10 +3668,6 @@
 		},
 		{
 			"Path": "$(EngineDir)/Plugins/Runtime/StateTree/StateTree.uplugin",
-			"Type": "UFS"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Runtime/Steam/SteamShared/SteamShared.uplugin",
 			"Type": "UFS"
 		},
 		{
@@ -3885,7 +3873,6 @@
 		"OnlineServices",
 		"OnlineSubsystem",
 		"OnlineSubsystemNull",
-		"OnlineSubsystemSteam",
 		"OnlineSubsystemUtils",
 		"OodleNetwork",
 		"Paper2D",
@@ -3919,7 +3906,6 @@
 		"SoundFields",
 		"SpeedTreeImporter",
 		"StateTree",
-		"SteamShared",
 		"SubversionSourceControl",
 		"Synthesis",
 		"Takes",

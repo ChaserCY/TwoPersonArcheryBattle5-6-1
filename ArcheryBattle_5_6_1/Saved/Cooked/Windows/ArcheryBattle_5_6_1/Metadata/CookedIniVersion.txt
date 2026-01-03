@@ -1161,7 +1161,6 @@ ConfigSystem.<Editor>.Engine:/Script/Engine.Engine:WeightMapPlaceholderTextureNa
 ConfigSystem.<Editor>.Engine:/Script/Engine.Engine:WireframeMaterialName:0=/Engine/EngineDebugMaterials/WireframeMaterial.WireframeMaterial
 ConfigSystem.<Editor>.Engine:/Script/Engine.Engine:WorldSettingsClassName:0=/Script/Engine.WorldSettings
 ConfigSystem.<Editor>.Engine:/Script/Engine.GameEngine:MaxDeltaTime:0=0
-ConfigSystem.<Editor>.Engine:/Script/Engine.GameEngine:NetDriverDefinitions:0=(DefName="GameNetDriver",DriverClassName="OnlineSubsystemUtils.IpNetDriver",DriverClassNameFallback="OnlineSubsystemUtils.IpNetDriver")
 ConfigSystem.<Editor>.Engine:/Script/Engine.GameEngine:ServerFlushLogInterval:0=30
 ConfigSystem.<Editor>.Engine:/Script/Engine.GarbageCollectionSettings:gc.ActorClusteringEnabled:0=False
 ConfigSystem.<Editor>.Engine:/Script/Engine.GarbageCollectionSettings:gc.AllowParallelGC:0=True
@@ -1328,7 +1327,7 @@ ConfigSystem.<Editor>.Engine:/Script/Engine.UserInterfaceSettings:UIScaleRule:0=
 ConfigSystem.<Editor>.Engine:/Script/Engine.WorldPartitionSettings:EditorHashDefaultClass:0=/Script/CoreUObject.Class'/Script/Engine.WorldPartitionEditorSpatialHash'
 ConfigSystem.<Editor>.Engine:/Script/Engine.WorldPartitionSettings:RuntimeHashDefaultClass:0=/Script/CoreUObject.Class'/Script/Engine.WorldPartitionRuntimeHashSet'
 ConfigSystem.<Editor>.Engine:/Script/EngineSettings.GameMapsSettings:bUseSplitscreen:0=True
-ConfigSystem.<Editor>.Engine:/Script/EngineSettings.GameMapsSettings:EditorStartupMap:0=/Game/MainMenu/MainMenu.MainMenu
+ConfigSystem.<Editor>.Engine:/Script/EngineSettings.GameMapsSettings:EditorStartupMap:0=/Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson
 ConfigSystem.<Editor>.Engine:/Script/EngineSettings.GameMapsSettings:GameDefaultMap:0=/Game/MainMenu/MainMenu.MainMenu
 ConfigSystem.<Editor>.Engine:/Script/EngineSettings.GameMapsSettings:GameInstanceClass:0=/Script/Engine.GameInstance
 ConfigSystem.<Editor>.Engine:/Script/EngineSettings.GameMapsSettings:GlobalDefaultGameMode:0=/Game/ThirdPerson/Blueprints/BP_ThirdPersonGameMode.BP_ThirdPersonGameMode_C
@@ -1726,6 +1725,7 @@ ConfigSystem.<Editor>.Engine:DevOptions.Shaders:NumUnusedShaderCompilingThreads:
 ConfigSystem.<Editor>.Engine:DevOptions.Shaders:NumUnusedShaderCompilingThreadsDuringGame:0=4
 ConfigSystem.<Editor>.Engine:DevOptions.Shaders:ProcessGameThreadTargetTime:0=.01
 ConfigSystem.<Editor>.Engine:DevOptions.Shaders:ShaderCompilerCoreCountThreshold:0=12
+ConfigSystem.<Editor>.Engine:DevOptions.Shaders:WorkerProcessPriority:0=-1
 ConfigSystem.<Editor>.Engine:DevOptions.Shaders:WorkerTimeToLive:0=20
 ConfigSystem.<Editor>.Engine:Engine.ErrorHandling:bPromptForRemoteDebugging:0=false
 ConfigSystem.<Editor>.Engine:Engine.ErrorHandling:bPromptForRemoteDebugOnEnsure:0=false
@@ -1780,7 +1780,6 @@ ConfigSystem.<Editor>.Engine:OnlineSubsystem:AdditionalModulesToLoad:0=HTTP
 ConfigSystem.<Editor>.Engine:OnlineSubsystem:AdditionalModulesToLoad:1=XMPP
 ConfigSystem.<Editor>.Engine:OnlineSubsystem:BuildIdOverride:0=0
 ConfigSystem.<Editor>.Engine:OnlineSubsystem:bUseBuildIdOverride:0=false
-ConfigSystem.<Editor>.Engine:OnlineSubsystem:DefaultPlatformService:0=Null
 ConfigSystem.<Editor>.Engine:OnlineSubsystem:PollingIntervalInMs:0=20
 ConfigSystem.<Editor>.Engine:OnlineSubsystemNull:bAddUserNumToNullId:0=false
 ConfigSystem.<Editor>.Engine:OnlineSubsystemNull:bAutoLoginAtStartup:0=true
@@ -1865,7 +1864,7 @@ ConfigSystem.<Editor>.Game:/Script/DeveloperToolSettings.PlatformsMenuSettings:P
 ConfigSystem.<Editor>.Game:/Script/DeveloperToolSettings.PlatformsMenuSettings:PerPlatformBuildConfig:0=()
 ConfigSystem.<Editor>.Game:/Script/DeveloperToolSettings.PlatformsMenuSettings:PerPlatformBuildTarget:0=()
 ConfigSystem.<Editor>.Game:/Script/DeveloperToolSettings.PlatformsMenuSettings:PerPlatformTargetFlavorName:0=(("Android", "Android_ASTC"))
-ConfigSystem.<Editor>.Game:/Script/DeveloperToolSettings.PlatformsMenuSettings:StagingDirectory:0=(Path="C/Users/Lenovo/Desktop/MyGames")
+ConfigSystem.<Editor>.Game:/Script/DeveloperToolSettings.PlatformsMenuSettings:StagingDirectory:0=(Path="C/Users/Lenovo/Desktop/MyGame")
 ConfigSystem.<Editor>.Game:/Script/Engine.AssetManagerSettings:PrimaryAssetTypesToScan:0=(PrimaryAssetType="Map",AssetBaseClass=/Script/Engine.World,bHasBlueprintClasses=False,bIsEditorOnly=True,Directories=((Path="/Game/Maps")),SpecificAssets=,Rules=(Priority=-1,ChunkId=-1,bApplyRecursively=True,CookRule=Unknown))
 ConfigSystem.<Editor>.Game:/Script/Engine.AssetManagerSettings:PrimaryAssetTypesToScan:1=(PrimaryAssetType="PrimaryAssetLabel",AssetBaseClass=/Script/Engine.PrimaryAssetLabel,bHasBlueprintClasses=False,bIsEditorOnly=True,Directories=((Path="/Game")),SpecificAssets=,Rules=(Priority=-1,ChunkId=-1,bApplyRecursively=True,CookRule=Unknown))
 ConfigSystem.<Editor>.Game:/Script/Engine.DebugCameraController:bShowSelectedInfo:0=true

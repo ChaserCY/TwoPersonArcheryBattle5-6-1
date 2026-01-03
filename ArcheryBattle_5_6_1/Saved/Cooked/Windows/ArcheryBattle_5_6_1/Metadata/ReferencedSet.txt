@@ -418,6 +418,9 @@
 /game/mainmenu/bp_mainmenugamemode
 /game/mainmenu/bp_mainmenupawn
 /game/mainmenu/mainmenu
+/game/maprenderphoto/m_minmap_base
+/game/maprenderphoto/方向标-白色底
+/game/maprenderphoto/方向标-白色底_sprite
 /game/player/ac_damage
 /game/player/aimation/abp_myplayer
 /game/player/aimation/ao/ao_aim
@@ -469,6 +472,7 @@
 /game/widget/w_gamebegin
 /game/widget/w_joingame
 /game/widget/w_mainmenu
+/game/widget/w_minmap
 /game/widget/w_myplayerhud
 /game/widget/w_serversession
 /game/widget/w_settings
@@ -614,6 +618,7 @@
 /paper2d/maskedunlitspritematerial
 /paper2d/opaqueunlitspritematerial
 /paper2d/placeholdertextures/dummyspritetexture
+/paper2d/translucentunlitspritematerial
 /speedtreeimporter/speedtree9/empty
 /speedtreeimporter/speedtree9/emptynormal
 /speedtreeimporter/speedtree9/game_wind_noise

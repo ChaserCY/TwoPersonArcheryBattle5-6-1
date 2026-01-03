@@ -4077,58 +4077,6 @@
 			}
 		},
 		{
-			"File": "../../../Engine/Plugins/Online/OnlineSubsystemSteam/OnlineSubsystemSteam.uplugin",
-			"Descriptor": 
-			{
-				"FileVersion": 3,
-				"Version": 0,
-				"VersionName": "1.1",
-				"FriendlyName": "Online Subsystem Steam",
-				"Description": "Access to Steam platform",
-				"Category": "Online Platform",
-				"CreatedBy": "Epic Games, Inc.",
-				"CreatedByURL": "https://epicgames.com",
-				"DocsURL": "",
-				"MarketplaceURL": "",
-				"SupportURL": "",
-				"EnabledByDefault": false,
-				"CanContainContent": false,
-				"Modules": [
-					{
-						"Name": "OnlineSubsystemSteam",
-						"Type": "Runtime",
-						"LoadingPhase": "Default",
-						"PlatformAllowList": [
-							"Win64",
-							"Mac",
-							"Linux"
-						]
-					}
-				],
-				"LocalizationTargets": [
-					{
-						"Name": "OnlineSubsystemSteam",
-						"LoadingPolicy": "Always",
-						"ConfigGenerationPolicy": "Never"
-					}
-				],
-				"Plugins": [
-					{
-						"Name": "OnlineSubsystem",
-						"Enabled": true
-					},
-					{
-						"Name": "OnlineSubsystemUtils",
-						"Enabled": true
-					},
-					{
-						"Name": "SteamShared",
-						"Enabled": true
-					}
-				]
-			}
-		},
-		{
 			"File": "../../../Engine/Plugins/Online/OnlineSubsystemUtils/OnlineSubsystemUtils.uplugin",
 			"Descriptor": 
 			{
@@ -5457,37 +5405,6 @@
 					{
 						"Name": "PropertyBindingUtils",
 						"Enabled": true
-					}
-				]
-			}
-		},
-		{
-			"File": "../../../Engine/Plugins/Runtime/Steam/SteamShared/SteamShared.uplugin",
-			"Descriptor": 
-			{
-				"FileVersion": 3,
-				"Version": 1,
-				"VersionName": "1.0",
-				"FriendlyName": "Steam Shared Module",
-				"Description": "Shared module loader for the Steam API",
-				"Category": "Online Platform",
-				"CreatedBy": "Epic Games, Inc.",
-				"CreatedByURL": "https://epicgames.com",
-				"DocsURL": "",
-				"MarketplaceURL": "",
-				"SupportURL": "",
-				"EnabledByDefault": false,
-				"CanContainContent": false,
-				"Modules": [
-					{
-						"Name": "SteamShared",
-						"Type": "Runtime",
-						"LoadingPhase": "PreDefault",
-						"PlatformAllowList": [
-							"Win64",
-							"Mac",
-							"Linux"
-						]
 					}
 				]
 			}

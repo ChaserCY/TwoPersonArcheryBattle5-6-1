@@ -117,6 +117,12 @@
 			]
 		},
 		{
+			"ShaderMapHash": "CEAD252C64FD5219DA6B70DC7DB1E6B824C2B60F",
+			"Assets": [
+				"/Game/MapRenderPhoto/M_MinMap_Base"
+			]
+		},
+		{
 			"ShaderMapHash": "068AF22DD0AA928ABF9D69F5CAC01C2085FE625B",
 			"Assets": [
 				"/Game/ArrowTrail/FX/NS_ArrowTrail_Ice"
@@ -240,6 +246,12 @@
 			"ShaderMapHash": "11C76659A71592D83EB8CF1E848125BFA9994C96",
 			"Assets": [
 				"/Engine/EditorLandscapeResources/ColorMaskBrushMaterial"
+			]
+		},
+		{
+			"ShaderMapHash": "E95B965BB7D3925A03D6E9E40BBF22B84F988169",
+			"Assets": [
+				"/Paper2D/TranslucentUnlitSpriteMaterial"
 			]
 		},
 		{
@@ -390,8 +402,7 @@
 		{
 			"ShaderMapHash": "C4D59B8C12206D2F2049ECE6B5A9729CF72B5522",
 			"Assets": [
-				"/Game/LevelPrototyping/Materials/M_PrototypeGrid",
-				"/Game/LevelPrototyping/Materials/MI_PrototypeGrid_Gray"
+				"/Game/LevelPrototyping/Materials/M_PrototypeGrid"
 			]
 		},
 		{

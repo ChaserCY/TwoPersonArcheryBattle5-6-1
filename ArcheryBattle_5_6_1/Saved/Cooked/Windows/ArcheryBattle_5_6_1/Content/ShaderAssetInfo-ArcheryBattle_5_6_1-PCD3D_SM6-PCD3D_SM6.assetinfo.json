@@ -116,6 +116,12 @@
 			]
 		},
 		{
+			"ShaderMapHash": "F6FA16251903EF75CAEB53F6B1B81A460B07C1E9",
+			"Assets": [
+				"/Game/MapRenderPhoto/M_MinMap_Base"
+			]
+		},
+		{
 			"ShaderMapHash": "CF77AC26A3B88B4081C1F18B0E343EA3D73A8978",
 			"Assets": [
 				"/Engine/EngineMaterials/GizmoMaterial"
@@ -590,6 +596,12 @@
 			"ShaderMapHash": "979657DBEBAFB7B04241CFF558AE999CAC79D211",
 			"Assets": [
 				"/Game/ArrowTrail/FX/NS_ArrowTrail_Fire_02"
+			]
+		},
+		{
+			"ShaderMapHash": "CB5085DBE5561D0DC05DFBF6584BDEFD9F935A81",
+			"Assets": [
+				"/Paper2D/TranslucentUnlitSpriteMaterial"
 			]
 		},
 		{
