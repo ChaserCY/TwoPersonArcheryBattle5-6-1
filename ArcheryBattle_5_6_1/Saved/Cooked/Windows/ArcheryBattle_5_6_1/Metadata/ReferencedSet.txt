@@ -337,6 +337,7 @@
 /game/arrowtrail/texture/t_rocks
 /game/arrowtrail/texture/t_white
 /game/background/bp_cube
+/game/background/bp_swingpoint
 /game/bow/ac_bow
 /game/bow/animation/abp_bow
 /game/bow/animation/bow_halfdraw_aim
@@ -398,11 +399,13 @@
 /game/input/actions/ia_move
 /game/input/actions/ia_roll
 /game/input/actions/ia_slowwalk
+/game/input/actions/ia_swing
 /game/input/imc_default
 /game/input/imc_mouselook
 /game/input/touch/bpi_touchinterface
 /game/input/touch/ui_thumbstick
 /game/input/touch/ui_touchsimple
+/game/levelprototyping/interactable/door/assets/meshes/sm_door
 /game/levelprototyping/materials/m_flatcol
 /game/levelprototyping/materials/m_prototypegrid
 /game/levelprototyping/materials/mf_procgrid
