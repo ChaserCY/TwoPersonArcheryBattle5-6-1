@@ -1,6 +1,0 @@
-ArcheryBattle_5_6_1/Binaries/Win64/ArcheryBattle_5_6_1.pdb	2026-01-02T08:33:48.474Z
-Engine/Content/SlateDebug/Fonts/LastResort.tps	2025-10-31T06:57:10.193Z
-Engine/Content/SlateDebug/Fonts/LastResort.ttf	2025-10-31T06:57:10.761Z
-Engine/Extras/GPUDumpViewer/GPUDumpViewer.html	2025-10-31T06:58:01.072Z
-Engine/Extras/GPUDumpViewer/OpenGPUDumpViewer.bat	2025-10-31T06:58:01.073Z
-Engine/Extras/GPUDumpViewer/OpenGPUDumpViewer.sh	2025-10-31T06:58:01.073Z

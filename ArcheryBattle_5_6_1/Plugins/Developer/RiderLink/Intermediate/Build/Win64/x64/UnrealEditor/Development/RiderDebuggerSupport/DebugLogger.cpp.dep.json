@@ -1,0 +1,13 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "e:\\ueprojects\\twopersonarcherybattle5-6-1\\archerybattle_5_6_1\\plugins\\developer\\riderlink\\source\\riderdebuggersupport\\private\\debuglogger.cpp",
+        "ProvidedModule": "",
+        "Includes": [
+            "e:\\ueprojects\\twopersonarcherybattle5-6-1\\archerybattle_5_6_1\\plugins\\developer\\riderlink\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\riderdebuggersupport\\definitions.h",
+            "e:\\ueprojects\\twopersonarcherybattle5-6-1\\archerybattle_5_6_1\\plugins\\developer\\riderlink\\source\\riderdebuggersupport\\private\\debuglogger.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

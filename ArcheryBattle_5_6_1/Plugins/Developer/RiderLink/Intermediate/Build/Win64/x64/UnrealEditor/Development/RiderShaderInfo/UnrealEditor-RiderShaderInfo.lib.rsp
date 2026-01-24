@@ -1,0 +1,12 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-RiderShaderInfo.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"E:/UEProjects/TwoPersonArcheryBattle5-6-1/ArcheryBattle_5_6_1/Plugins/Developer/RiderLink/Intermediate/Build/Win64/x64/UnrealEditor/Development/RiderShaderInfo/RiderShaderInfo.cpp.obj"
+"E:/UEProjects/TwoPersonArcheryBattle5-6-1/ArcheryBattle_5_6_1/Plugins/Developer/RiderLink/Intermediate/Build/Win64/x64/UnrealEditor/Development/RiderShaderInfo/PerModuleInline.gen.cpp.obj"
+"E:/UEProjects/TwoPersonArcheryBattle5-6-1/ArcheryBattle_5_6_1/Plugins/Developer/RiderLink/Intermediate/Build/Win64/x64/UnrealEditor/Development/RiderShaderInfo/Default.rc2.res"
+/OUT:"E:/UEProjects/TwoPersonArcheryBattle5-6-1/ArcheryBattle_5_6_1/Plugins/Developer/RiderLink/Intermediate/Build/Win64/x64/UnrealEditor/Development/RiderShaderInfo/UnrealEditor-RiderShaderInfo.lib"

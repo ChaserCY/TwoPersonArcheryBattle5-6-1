@@ -1,0 +1,42 @@
+{
+    // --- C++ 相关设置 ---
+    "cppstandard": "c++20",
+    "C_Cpp.clang_format_sortIncludes": true,
+    // 强制使用 UE 的符号信息，解决 5.6 中某些宏无法识别的问题
+    "C_Cpp.intelliSenseEngine": "default",
+    "C_Cpp.autocomplete": "default",
+    // --- 搜索与显示优化 (隐藏 PuerTS 生成的中间代码，防止搜索干扰) ---
+    "search.exclude": {
+        "**/node_modules": true,
+        "**/Binaries": true,
+        "**/Intermediate": true,
+        "**/DerivedDataCache": true,
+        "**/Plugins/Puerts/Intermediate": true
+    },
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true,
+        "**/Binaries": true,
+        "**/DerivedDataCache": true,
+        "**/Intermediate": true
+    },
+    // --- TypeScript / PuerTS 开发优化 ---
+    "typescript.tsdk": "node_modules/typescript/lib", // 确保使用项目本地的 TS 版本
+    "editor.formatOnSave": true,
+    "[typescript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    // --- 自动编译设置 (如果使用的是 PuerTS 默认的编译流) ---
+    "typescript.tsc.autoDetect": "on",
+    // --- 针对 UE 5.6 的特定修复 ---
+    // 解决 UE 智能提示偶尔出现的 "too many errors" 导致失效的问题
+    "C_Cpp.intelliSenseMaxCachedProcesses": 8,
+    "C_Cpp.intelliSenseUpdateDelay": 500,
+    // --- PuerTS 调试相关 (配合插件) ---
+    // 如果你安装了 JavaScript Debugger，可以在这里指定调试端口
+    "debug.javascript.usePreview": true,
+}
