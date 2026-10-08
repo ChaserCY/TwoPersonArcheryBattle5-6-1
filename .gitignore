@@ -97,3 +97,20 @@ package-lock.json
 
 # 4. TypeScript 增量编译缓存
 *.tsbuildinfo
+
+# === GitHub 镜像：以下第三方素材包未纳入镜像 ===
+# 需要时请从 Fab / 虚幻商城 / UE5 引擎内容重新获取
+Content/InsaneCharacterPack01/
+Content/Castle/
+Content/Dungeon/
+Content/Fab/
+Content/Cathedral/
+Content/AssassinGirl/
+Content/PC3D_BrackenFern_v11/
+Content/Realistic_Starter_VFX_Pack_Vol2/
+Content/Mixamo/
+Content/Using/
+Content/Characters/
+Content/Bow/GreatEagleBow_*
+
+# 单文件大于 5MB 的资源同样未纳入镜像

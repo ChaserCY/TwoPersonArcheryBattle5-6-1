@@ -1,786 +1,788 @@
+# === GitHub 镜像版：已移除 Git LFS 过滤器，资源以普通二进制文件存储 ===
+# 原腾讯工蜂版本仍使用 LFS，本文件仅在 main 分支生效
 # UE项目大文件规则
 # Git LFS rules for Unreal Engine project
 # Unreal specific file types
 # uasset
-*.[uU][aA][sS][sS][eE][tT] filter=lfs diff=lfs merge=binary -text
+*.[uU][aA][sS][sS][eE][tT] -text
 # umap
-*.[uU][mM][aA][pP] filter=lfs diff=lfs merge=binary -text
+*.[uU][mM][aA][pP] -text
 # 视频，video
 # oggtheora
-*.[oO][gG][gG][tT][hH][eE][oO][rR][aA] filter=lfs diff=lfs merge=binary -text
+*.[oO][gG][gG][tT][hH][eE][oO][rR][aA] -text
 # m2t
-*.[mM]2[tT] filter=lfs diff=lfs merge=binary -text
+*.[mM]2[tT] -text
 # mts
-*.[mM][tT][sS] filter=lfs diff=lfs merge=binary -text
+*.[mM][tT][sS] -text
 # mp4
-*.[mM][pP]4 filter=lfs diff=lfs merge=binary -text
+*.[mM][pP]4 -text
 # avi
-*.[aA][vV][iI] filter=lfs diff=lfs merge=binary -text
+*.[aA][vV][iI] -text
 # mkv
-*.[mM][kK][vV] filter=lfs diff=lfs merge=binary -text
+*.[mM][kK][vV] -text
 # wmv
-*.[wW][mM][vV] filter=lfs diff=lfs merge=binary -text
+*.[wW][mM][vV] -text
 # asf
-*.[aA][sS][fF] filter=lfs diff=lfs merge=binary -text
+*.[aA][sS][fF] -text
 # asx
-*.[aA][sS][xX] filter=lfs diff=lfs merge=binary -text
+*.[aA][sS][xX] -text
 # rm
-*.[rR][mM] filter=lfs diff=lfs merge=binary -text
+*.[rR][mM] -text
 # rmvb
-*.[rR][mM][vV][bB] filter=lfs diff=lfs merge=binary -text
+*.[rR][mM][vV][bB] -text
 # 3gp
-*.3[gG][pP] filter=lfs diff=lfs merge=binary -text
+*.3[gG][pP] -text
 # 3gpp
-*.3[gG][pP][pP] filter=lfs diff=lfs merge=binary -text
+*.3[gG][pP][pP] -text
 # 3gpp2
-*.3[gG][pP][pP]2 filter=lfs diff=lfs merge=binary -text
+*.3[gG][pP][pP]2 -text
 # mov
-*.[mM][oO][vV] filter=lfs diff=lfs merge=binary -text
+*.[mM][oO][vV] -text
 # m4v
-*.[mM]4[vV] filter=lfs diff=lfs merge=binary -text
+*.[mM]4[vV] -text
 # dat
-*.[dD][aA][tT] filter=lfs diff=lfs merge=binary -text
+*.[dD][aA][tT] -text
 # vob
-*.[vV][oO][bB] filter=lfs diff=lfs merge=binary -text
+*.[vV][oO][bB] -text
 # dv
-*.[dD][vV] filter=lfs diff=lfs merge=binary -text
+*.[dD][vV] -text
 # mpeg
-*.[mM][pP][eE][gG] filter=lfs diff=lfs merge=binary -text
+*.[mM][pP][eE][gG] -text
 # mpg
-*.[mM][pP][gG] filter=lfs diff=lfs merge=binary -text
+*.[mM][pP][gG] -text
 # mpe
-*.[mM][pP][eE] filter=lfs diff=lfs merge=binary -text
+*.[mM][pP][eE] -text
 # m2v
-*.[mM]2[vV] filter=lfs diff=lfs merge=binary -text
+*.[mM]2[vV] -text
 # webm
-*.[wW][eE][bB][mM] filter=lfs diff=lfs merge=binary -text
+*.[wW][eE][bB][mM] -text
 # flv
-*.[fF][lL][vV] filter=lfs diff=lfs merge=binary -text
+*.[fF][lL][vV] -text
 # swf
-*.[sS][wW][fF] filter=lfs diff=lfs merge=binary -text
+*.[sS][wW][fF] -text
 # avc
-*.[aA][vV][cC] filter=lfs diff=lfs merge=binary -text
+*.[aA][vV][cC] -text
 # arf
-*.[aA][rR][fF] filter=lfs diff=lfs merge=binary -text
+*.[aA][rR][fF] -text
 # vcr
-*.[vV][cC][rR] filter=lfs diff=lfs merge=binary -text
+*.[vV][cC][rR] -text
 # ogv
-*.[oO][gG][vV] filter=lfs diff=lfs merge=binary -text
+*.[oO][gG][vV] -text
 # 音频, audio
 # ape
-*.[aA][pP][eE] filter=lfs diff=lfs merge=binary -text
+*.[aA][pP][eE] -text
 # wav
-*.[wW][aA][vV] filter=lfs diff=lfs merge=binary -text
+*.[wW][aA][vV] -text
 # m4a
-*.[mM]4[aA] filter=lfs diff=lfs merge=binary -text
+*.[mM]4[aA] -text
 # mp3
-*.[mM][pP]3 filter=lfs diff=lfs merge=binary -text
+*.[mM][pP]3 -text
 # flac
-*.[fF][lL][aA][cC] filter=lfs diff=lfs merge=binary -text
+*.[fF][lL][aA][cC] -text
 # aif
-*.[aA][iI][fF] filter=lfs diff=lfs merge=binary -text
+*.[aA][iI][fF] -text
 # aiff
-*.[aA][iI][fF][fF] filter=lfs diff=lfs merge=binary -text
+*.[aA][iI][fF][fF] -text
 # aac
-*.[aA][aA][cC] filter=lfs diff=lfs merge=binary -text
+*.[aA][aA][cC] -text
 # cpa
-*.[cC][pP][aA] filter=lfs diff=lfs merge=binary -text
+*.[cC][pP][aA] -text
 # swa
-*.[sS][wW][aA] filter=lfs diff=lfs merge=binary -text
+*.[sS][wW][aA] -text
 # sesx
-*.[sS][eE][sS][xX] filter=lfs diff=lfs merge=binary -text
+*.[sS][eE][sS][xX] -text
 # ses
-*.[sS][eE][sS] filter=lfs diff=lfs merge=binary -text
+*.[sS][eE][sS] -text
 # bnk, Wwise audio
-*.[bB][nN][kK] filter=lfs diff=lfs merge=binary -text
+*.[bB][nN][kK] -text
 # wem, Wwise
-*.[wW][eE][mM] filter=lfs diff=lfs merge=binary -text
+*.[wW][eE][mM] -text
 # pca
-*.[pP][cC][aA] filter=lfs diff=lfs merge=binary -text
+*.[pP][cC][aA] -text
 # 库文件，Library
 # a
-*.[aA] filter=lfs diff=lfs merge=binary -text
+*.[aA] -text
 # o
-*.[oO] filter=lfs diff=lfs merge=binary -text
+*.[oO] -text
 # so
-*.[sS][oO] filter=lfs diff=lfs merge=binary -text
+*.[sS][oO] -text
 # lib
-*.[lL][iI][bB] filter=lfs diff=lfs merge=binary -text
+*.[lL][iI][bB] -text
 # dll
-*.[dD][lL][lL] filter=lfs diff=lfs merge=binary -text
+*.[dD][lL][lL] -text
 # lbr
-*.[lL][bB][rR] filter=lfs diff=lfs merge=binary -text
+*.[lL][bB][rR] -text
 # tlb
-*.[tT][lL][bB] filter=lfs diff=lfs merge=binary -text
+*.[tT][lL][bB] -text
 # cab
-*.[cC][aA][bB] filter=lfs diff=lfs merge=binary -text
+*.[cC][aA][bB] -text
 # dylib
-*.[dD][yY][lL][iI][bB] filter=lfs diff=lfs merge=binary -text
+*.[dD][yY][lL][iI][bB] -text
 # dsym
-*.[dD][sS][yY][mM] filter=lfs diff=lfs merge=binary -text
+*.[dD][sS][yY][mM] -text
 # app
-*.[aA][pP][pP] filter=lfs diff=lfs merge=binary -text
+*.[aA][pP][pP] -text
 # ipa
-*.[iI][pP][aA] filter=lfs diff=lfs merge=binary -text
+*.[iI][pP][aA] -text
 # dmg
-*.[dD][mM][gG] filter=lfs diff=lfs merge=binary -text
+*.[dD][mM][gG] -text
 # exe
-*.[eE][xX][eE] filter=lfs diff=lfs merge=binary -text
+*.[eE][xX][eE] -text
 # pdb
-*.[pP][dD][bB] filter=lfs diff=lfs merge=binary -text
+*.[pP][dD][bB] -text
 # dbg
-*.[dD][bB][gG] filter=lfs diff=lfs merge=binary -text
+*.[dD][bB][gG] -text
 # run
-*.[rR][uU][nN] filter=lfs diff=lfs merge=binary -text
+*.[rR][uU][nN] -text
 # pyd
-*.[pP][yY][dD] filter=lfs diff=lfs merge=binary -text
+*.[pP][yY][dD] -text
 # pyc
-*.[pP][yY][cC] filter=lfs diff=lfs merge=binary -text
+*.[pP][yY][cC] -text
 # nupkg, NuGet package
-*.[nN][uU][pP][kK][gG] filter=lfs diff=lfs merge=binary -text
+*.[nN][uU][pP][kK][gG] -text
 # pch
-*.[pP][cC][hH] filter=lfs diff=lfs merge=binary -text
+*.[pP][cC][hH] -text
 # ilk
-*.[iI][lL][kK] filter=lfs diff=lfs merge=binary -text
+*.[iI][lL][kK] -text
 # debug
-*.[dD][eE][bB][uU][gG] filter=lfs diff=lfs merge=binary -text
+*.[dD][eE][bB][uU][gG] -text
 # obj
-*.[oO][bB][jJ] filter=lfs diff=lfs merge=binary -text
+*.[oO][bB][jJ] -text
 # stub
-*.[sS][tT][uU][bB] filter=lfs diff=lfs merge=binary -text
+*.[sS][tT][uU][bB] -text
 # ddp
-*.[dD][dD][pP] filter=lfs diff=lfs merge=binary -text
+*.[dD][dD][pP] -text
 # sym
-*.[sS][yY][mM] filter=lfs diff=lfs merge=binary -text
+*.[sS][yY][mM] -text
 # lld
-*.[lL][lL][dD] filter=lfs diff=lfs merge=binary -text
+*.[lL][lL][dD] -text
 # res
-*.[rR][eE][sS] filter=lfs diff=lfs merge=binary -text
+*.[rR][eE][sS] -text
 # locres
-*.[lL][oO][cC][rR][eE][sS] filter=lfs diff=lfs merge=binary -text
+*.[lL][oO][cC][rR][eE][sS] -text
 # aar
-*.[aA][aA][rR] filter=lfs diff=lfs merge=binary -text
+*.[aA][aA][rR] -text
 # udd
-*.[uU][dD][dD] filter=lfs diff=lfs merge=binary -text
+*.[uU][dD][dD] -text
 # mdb
-*.[mM][dD][bB] filter=lfs diff=lfs merge=binary -text
+*.[mM][dD][bB] -text
 # ddc
-*.[dD][dD][cC] filter=lfs diff=lfs merge=binary -text
+*.[dD][dD][cC] -text
 # udn
-*.[uU][dD][nN] filter=lfs diff=lfs merge=binary -text
+*.[uU][dD][nN] -text
 # h5
-*.[hH]5 filter=lfs diff=lfs merge=binary -text
+*.[hH]5 -text
 # 压缩包，Archive format
 # =Archiving only=
 # ar
-*.[aA][rR] filter=lfs diff=lfs merge=binary -text
+*.[aA][rR] -text
 # cpio
-*.[cC][pP][iI][oO] filter=lfs diff=lfs merge=binary -text
+*.[cC][pP][iI][oO] -text
 # shar
-*.[sS][hH][aA][rR] filter=lfs diff=lfs merge=binary -text
+*.[sS][hH][aA][rR] -text
 # tar
-*.[tT][aA][rR] filter=lfs diff=lfs merge=binary -text
+*.[tT][aA][rR] -text
 # lbr
-*.[lL][bB][rR] filter=lfs diff=lfs merge=binary -text
+*.[lL][bB][rR] -text
 # =Compression only=
 # Brotli
-*.[bB][rR][oO][tT][lL][iI] filter=lfs diff=lfs merge=binary -text
+*.[bB][rR][oO][tT][lL][iI] -text
 # bzip2
-*.[bB][zZ][iI][pP]2 filter=lfs diff=lfs merge=binary -text
+*.[bB][zZ][iI][pP]2 -text
 # compress
-*.[cC][oO][mM][pP][rR][eE][sS][sS] filter=lfs diff=lfs merge=binary -text
+*.[cC][oO][mM][pP][rR][eE][sS][sS] -text
 # zip
-*.[zZ][iI][pP] filter=lfs diff=lfs merge=binary -text
+*.[zZ][iI][pP] -text
 # gzip
-*.[gG][zZ][iI][pP] filter=lfs diff=lfs merge=binary -text
+*.[gG][zZ][iI][pP] -text
 # zopfli
-*.[zZ][oO][pP][fF][lL][iI] filter=lfs diff=lfs merge=binary -text
+*.[zZ][oO][pP][fF][lL][iI] -text
 # LZMA
-*.[lL][zZ][mM][aA] filter=lfs diff=lfs merge=binary -text
+*.[lL][zZ][mM][aA] -text
 # LZ4
-*.[lL][zZ]4 filter=lfs diff=lfs merge=binary -text
+*.[lL][zZ]4 -text
 # lzip
-*.[lL][zZ][iI][pP] filter=lfs diff=lfs merge=binary -text
+*.[lL][zZ][iI][pP] -text
 # lzop
-*.[lL][zZ][oO][pP] filter=lfs diff=lfs merge=binary -text
+*.[lL][zZ][oO][pP] -text
 # SQ
-*.[sS][qQ] filter=lfs diff=lfs merge=binary -text
+*.[sS][qQ] -text
 # xz
-*.[xX][zZ] filter=lfs diff=lfs merge=binary -text
+*.[xX][zZ] -text
 # Zstandard
-*.[zZ][sS][tT][aA][nN][dD][aA][rR][dD] filter=lfs diff=lfs merge=binary -text
+*.[zZ][sS][tT][aA][nN][dD][aA][rR][dD] -text
 # =Archiving and compression=
 # 7z
-*.7[zZ] filter=lfs diff=lfs merge=binary -text
+*.7[zZ] -text
 # ace
-*.[aA][cC][eE] filter=lfs diff=lfs merge=binary -text
+*.[aA][cC][eE] -text
 # arc
-*.[aA][rR][cC] filter=lfs diff=lfs merge=binary -text
+*.[aA][rR][cC] -text
 # arj
-*.[aA][rR][jJ] filter=lfs diff=lfs merge=binary -text
+*.[aA][rR][jJ] -text
 # b1
-*.[bB]1 filter=lfs diff=lfs merge=binary -text
+*.[bB]1 -text
 # cabinet
-*.[cC][aA][bB][iI][nN][eE][tT] filter=lfs diff=lfs merge=binary -text
+*.[cC][aA][bB][iI][nN][eE][tT] -text
 # cfs
-*.[cC][fF][sS] filter=lfs diff=lfs merge=binary -text
+*.[cC][fF][sS] -text
 # cpt
-*.[cC][pP][tT] filter=lfs diff=lfs merge=binary -text
+*.[cC][pP][tT] -text
 # dar
-*.[dD][aA][rR] filter=lfs diff=lfs merge=binary -text
+*.[dD][aA][rR] -text
 # dgca
-*.[dD][gG][cC][aA] filter=lfs diff=lfs merge=binary -text
+*.[dD][gG][cC][aA] -text
 # dmg
-*.[dD][mM][gG] filter=lfs diff=lfs merge=binary -text
+*.[dD][mM][gG] -text
 # egg
-*.[eE][gG][gG] filter=lfs diff=lfs merge=binary -text
+*.[eE][gG][gG] -text
 # kgb
-*.[kK][gG][bB] filter=lfs diff=lfs merge=binary -text
+*.[kK][gG][bB] -text
 # lha
-*.[lL][hH][aA] filter=lfs diff=lfs merge=binary -text
+*.[lL][hH][aA] -text
 # lzx
-*.[lL][zZ][xX] filter=lfs diff=lfs merge=binary -text
+*.[lL][zZ][xX] -text
 # mpq
-*.[mM][pP][qQ] filter=lfs diff=lfs merge=binary -text
+*.[mM][pP][qQ] -text
 # pea
-*.[pP][eE][aA] filter=lfs diff=lfs merge=binary -text
+*.[pP][eE][aA] -text
 # rar
-*.[rR][aA][rR] filter=lfs diff=lfs merge=binary -text
+*.[rR][aA][rR] -text
 # rzip
-*.[rR][zZ][iI][pP] filter=lfs diff=lfs merge=binary -text
+*.[rR][zZ][iI][pP] -text
 # sit
-*.[sS][iI][tT] filter=lfs diff=lfs merge=binary -text
+*.[sS][iI][tT] -text
 # sitx
-*.[sS][iI][tT][xX] filter=lfs diff=lfs merge=binary -text
+*.[sS][iI][tT][xX] -text
 # sqx
-*.[sS][qQ][xX] filter=lfs diff=lfs merge=binary -text
+*.[sS][qQ][xX] -text
 # uda
-*.[uU][dD][aA] filter=lfs diff=lfs merge=binary -text
+*.[uU][dD][aA] -text
 # xar
-*.[xX][aA][rR] filter=lfs diff=lfs merge=binary -text
+*.[xX][aA][rR] -text
 # zoo
-*.[zZ][oO][oO] filter=lfs diff=lfs merge=binary -text
+*.[zZ][oO][oO] -text
 # zpaq
-*.[zZ][pP][aA][qQ] filter=lfs diff=lfs merge=binary -text
+*.[zZ][pP][aA][qQ] -text
 # =Software packaging and distribution=
 # apk
-*.[aA][pP][kK] filter=lfs diff=lfs merge=binary -text
+*.[aA][pP][kK] -text
 # appx
-*.[aA][pP][pP][xX] filter=lfs diff=lfs merge=binary -text
+*.[aA][pP][pP][xX] -text
 # deb
-*.[dD][eE][bB] filter=lfs diff=lfs merge=binary -text
+*.[dD][eE][bB] -text
 # rpm
-*.[rR][pP][mM] filter=lfs diff=lfs merge=binary -text
+*.[rR][pP][mM] -text
 # msi
-*.[mM][sS][iI] filter=lfs diff=lfs merge=binary -text
+*.[mM][sS][iI] -text
 # ipa
-*.[iI][pP][aA] filter=lfs diff=lfs merge=binary -text
+*.[iI][pP][aA] -text
 # jar
-*.[jJ][aA][rR] filter=lfs diff=lfs merge=binary -text
+*.[jJ][aA][rR] -text
 # war
-*.[wW][aA][rR] filter=lfs diff=lfs merge=binary -text
+*.[wW][aA][rR] -text
 # ear
-*.[eE][aA][rR] filter=lfs diff=lfs merge=binary -text
+*.[eE][aA][rR] -text
 # xap
-*.[xX][aA][pP] filter=lfs diff=lfs merge=binary -text
+*.[xX][aA][pP] -text
 # xbap
-*.[xX][bB][aA][pP] filter=lfs diff=lfs merge=binary -text
+*.[xX][bB][aA][pP] -text
 # hap
-*.[hH][aA][pP] filter=lfs diff=lfs merge=binary -text
+*.[hH][aA][pP] -text
 # app
-*.[aA][pP][pP] filter=lfs diff=lfs merge=binary -text
+*.[aA][pP][pP] -text
 # gz
-*.[gG][zZ] filter=lfs diff=lfs merge=binary -text
+*.[gG][zZ] -text
 # tgz
-*.[tT][gG][zZ] filter=lfs diff=lfs merge=binary -text
+*.[tT][gG][zZ] -text
 # bz2
-*.[bB][zZ]2 filter=lfs diff=lfs merge=binary -text
+*.[bB][zZ]2 -text
 # z
-*.[zZ] filter=lfs diff=lfs merge=binary -text
+*.[zZ] -text
 # pak
-*.[pP][aA][kK] filter=lfs diff=lfs merge=binary -text
+*.[pP][aA][kK] -text
 # archive
-*.[aA][rR][cC][hH][iI][vV][eE] filter=lfs diff=lfs merge=binary -text
+*.[aA][rR][cC][hH][iI][vV][eE] -text
 # vsix
-*.[vV][sS][iI][xX] filter=lfs diff=lfs merge=binary -text
+*.[vV][sS][iI][xX] -text
 # disk image
 # iso
-*.[iI][sS][oO] filter=lfs diff=lfs merge=binary -text
+*.[iI][sS][oO] -text
 # bin
-*.[bB][iI][nN] filter=lfs diff=lfs merge=binary -text
+*.[bB][iI][nN] -text
 # cue
-*.[cC][uU][eE] filter=lfs diff=lfs merge=binary -text
+*.[cC][uU][eE] -text
 # raw
-*.[rR][aA][wW] filter=lfs diff=lfs merge=binary -text
+*.[rR][aA][wW] -text
 # Adobe
 # Photoshop
 # psd
-*.[pP][sS][dD] filter=lfs diff=lfs merge=binary -text
+*.[pP][sS][dD] -text
 # Illustrator
 # ai
-*.[aA][iI] filter=lfs diff=lfs merge=binary -text
+*.[aA][iI] -text
 # eps
-*.[eE][pP][sS] filter=lfs diff=lfs merge=binary -text
+*.[eE][pP][sS] -text
 # pdf
-*.[pP][dD][fF] filter=lfs diff=lfs merge=binary -text
+*.[pP][dD][fF] -text
 # 原始图片，Raw image
 # cr2
-*.[cC][rR]2 filter=lfs diff=lfs merge=binary -text
+*.[cC][rR]2 -text
 # crw
-*.[cC][rR][wW] filter=lfs diff=lfs merge=binary -text
+*.[cC][rR][wW] -text
 # nef
-*.[nN][eE][fF] filter=lfs diff=lfs merge=binary -text
+*.[nN][eE][fF] -text
 # nrw
-*.[nN][rR][wW] filter=lfs diff=lfs merge=binary -text
+*.[nN][rR][wW] -text
 # sr2
-*.[sS][rR]2 filter=lfs diff=lfs merge=binary -text
+*.[sS][rR]2 -text
 # dng
-*.[dD][nN][gG] filter=lfs diff=lfs merge=binary -text
+*.[dD][nN][gG] -text
 # arw
-*.[aA][rR][wW] filter=lfs diff=lfs merge=binary -text
+*.[aA][rR][wW] -text
 # ort
-*.[oO][rR][fF] filter=lfs diff=lfs merge=binary -text
+*.[oO][rR][fF] -text
 # fbx
-*.[fF][bB][xX] filter=lfs diff=lfs merge=binary -text
+*.[fF][bB][xX] -text
 # 3ds
-*.3[dD][sS] filter=lfs diff=lfs merge=binary -text
+*.3[dD][sS] -text
 # xcf
-*.[xX][cC][fF] filter=lfs diff=lfs merge=binary -text
+*.[xX][cC][fF] -text
 # hdr
-*.[hH][dD][rR] filter=lfs diff=lfs merge=binary -text
+*.[hH][dD][rR] -text
 # duf
-*.[dD][uU][fF] filter=lfs diff=lfs merge=binary -text
+*.[dD][uU][fF] -text
 # mb, maya
-*.[mM][bB] filter=lfs diff=lfs merge=binary -text
+*.[mM][bB] -text
 # cubemap，unity 贴图
-*.[cC][uU][bB][eE][mM][aA][pP] filter=lfs diff=lfs merge=binary -text
+*.[cC][uU][bB][eE][mM][aA][pP] -text
 # navmesh，unity
-*.[nN][aA][vV][mM][eE][sS][hH] filter=lfs diff=lfs merge=binary -text
+*.[nN][aA][vV][mM][eE][sS][hH] -text
 # osm，地理数据
-*.[oO][sS][mM] filter=lfs diff=lfs merge=binary -text
+*.[oO][sS][mM] -text
 # hip, houdini
-*.[hH][iI][pP] filter=lfs diff=lfs merge=binary -text
+*.[hH][iI][pP] -text
 # cdr
-*.[cC][dD][rR] filter=lfs diff=lfs merge=binary -text
+*.[cC][dD][rR] -text
 # raw
-*.[rR][aA][wW] filter=lfs diff=lfs merge=binary -text
+*.[rR][aA][wW] -text
 # dae
-*.[dD][aA][eE] filter=lfs diff=lfs merge=binary -text
+*.[dD][aA][eE] -text
 # hda, houdini
-*.[dD][aA][eE] filter=lfs diff=lfs merge=binary -text
+*.[dD][aA][eE] -text
 # ma, 3dmax
-*.[mM][aA] filter=lfs diff=lfs merge=binary -text
+*.[mM][aA] -text
 # max, 3dmax
-*.[mM][aA][xX] filter=lfs diff=lfs merge=binary -text
+*.[mM][aA][xX] -text
 # 3dm, 3d模型
-*.3[dD][mM] filter=lfs diff=lfs merge=binary -text
+*.3[dD][mM] -text
 # blend
-*.[bB][lL][eE][nN][dD] filter=lfs diff=lfs merge=binary -text
+*.[bB][lL][eE][nN][dD] -text
 # c4d
-*.[cC]4[dD] filter=lfs diff=lfs merge=binary -text
+*.[cC]4[dD] -text
 # collada
-*.[cC][oO][lL][lL][aA][dD][aA] filter=lfs diff=lfs merge=binary -text
+*.[cC][oO][lL][lL][aA][dD][aA] -text
 # dxf
-*.[dD][xX][fF] filter=lfs diff=lfs merge=binary -text
+*.[dD][xX][fF] -text
 # jas
-*.[jJ][aA][sS] filter=lfs diff=lfs merge=binary -text
+*.[jJ][aA][sS] -text
 # lws
-*.[lL][wW][sS] filter=lfs diff=lfs merge=binary -text
+*.[lL][wW][sS] -text
 # lxo
-*.[lL][xX][oO] filter=lfs diff=lfs merge=binary -text
+*.[lL][xX][oO] -text
 # ply
-*.[pP][lL][yY] filter=lfs diff=lfs merge=binary -text
+*.[pP][lL][yY] -text
 # skp
-*.[sS][kK][pP] filter=lfs diff=lfs merge=binary -text
+*.[sS][kK][pP] -text
 # stl
-*.[sS][tT][lL] filter=lfs diff=lfs merge=binary -text
+*.[sS][tT][lL] -text
 # ztl
-*.[zZ][tT][lL] filter=lfs diff=lfs merge=binary -text
+*.[zZ][tT][lL] -text
 # it
-*.[iI][tT] filter=lfs diff=lfs merge=binary -text
+*.[iI][tT] -text
 # mod
-*.[mM][oO][dD] filter=lfs diff=lfs merge=binary -text
+*.[mM][oO][dD] -text
 # ogg
-*.[oO][gG][gG] filter=lfs diff=lfs merge=binary -text
+*.[oO][gG][gG] -text
 # s3m
-*.[sS]3[mM] filter=lfs diff=lfs merge=binary -text
+*.[sS]3[mM] -text
 # xm
-*.[xX][mM] filter=lfs diff=lfs merge=binary -text
+*.[xX][mM] -text
 # glb
-*.[gG][lL][bB] filter=lfs diff=lfs merge=binary -text
+*.[gG][lL][bB] -text
 # gltf
-*.[gG][lL][tT][fF] filter=lfs diff=lfs merge=binary -text
+*.[gG][lL][tT][fF] -text
 # off
-*.[oO][fF][fF] filter=lfs diff=lfs merge=binary -text
+*.[oO][fF][fF] -text
 # wrl
-*.[wW][rR][lL] filter=lfs diff=lfs merge=binary -text
+*.[wW][rR][lL] -text
 # 3mf
-*.3[mM][fF] filter=lfs diff=lfs merge=binary -text
+*.3[mM][fF] -text
 # amf
-*.[aA][mM][fF] filter=lfs diff=lfs merge=binary -text
+*.[aA][mM][fF] -text
 # ifc
-*.[iI][fF][cC] filter=lfs diff=lfs merge=binary -text
+*.[iI][fF][cC] -text
 # brep
-*.[bB][rR][eE][pP] filter=lfs diff=lfs merge=binary -text
+*.[bB][rR][eE][pP] -text
 # step
-*.[sS][tT][eE][pP] filter=lfs diff=lfs merge=binary -text
+*.[sS][tT][eE][pP] -text
 # fcstd
-*.[fF][cC][sS][tT][dD] filter=lfs diff=lfs merge=binary -text
+*.[fF][cC][sS][tT][dD] -text
 # bim
-*.[bB][iI][mM] filter=lfs diff=lfs merge=binary -text
+*.[bB][iI][mM] -text
 # 图像，Image
 # jpg
-*.[jJ][pP][gG] filter=lfs diff=lfs merge=binary -text
+*.[jJ][pP][gG] -text
 # jpeg
-*.[jJ][pP][eE][gG] filter=lfs diff=lfs merge=binary -text
+*.[jJ][pP][eE][gG] -text
 # tiff
-*.[tT][iI][fF][fF] filter=lfs diff=lfs merge=binary -text
+*.[tT][iI][fF][fF] -text
 # gif
-*.[gG][iI][fF] filter=lfs diff=lfs merge=binary -text
+*.[gG][iI][fF] -text
 # svg
-*.[sS][vV][gG] filter=lfs diff=lfs merge=binary -text
+*.[sS][vV][gG] -text
 # svgz
-*.[sS][vV][gG][zZ] filter=lfs diff=lfs merge=binary -text
+*.[sS][vV][gG][zZ] -text
 # bmp
-*.[bB][mM][pP] filter=lfs diff=lfs merge=binary -text
+*.[bB][mM][pP] -text
 # png
-*.[pP][nN][gG] filter=lfs diff=lfs merge=binary -text
+*.[pP][nN][gG] -text
 # tif
-*.[tT][iI][fF] filter=lfs diff=lfs merge=binary -text
+*.[tT][iI][fF] -text
 # tga
-*.[tT][gG][aA] filter=lfs diff=lfs merge=binary -text
+*.[tT][gG][aA] -text
 # prj
-*.[pP][rR][jJ] filter=lfs diff=lfs merge=binary -text
+*.[pP][rR][jJ] -text
 # dwg
-*.[dD][wW][gG] filter=lfs diff=lfs merge=binary -text
+*.[dD][wW][gG] -text
 # flt
-*.[fF][lL][tT] filter=lfs diff=lfs merge=binary -text
+*.[fF][lL][tT] -text
 # htr
-*.[hH][tT][rR] filter=lfs diff=lfs merge=binary -text
+*.[hH][tT][rR] -text
 # iges
-*.[iI][gG][eE][sS] filter=lfs diff=lfs merge=binary -text
+*.[iI][gG][eE][sS] -text
 # igs
-*.[iI][gG][sS] filter=lfs diff=lfs merge=binary -text
+*.[iI][gG][sS] -text
 # ige
-*.[iI][gG][eE] filter=lfs diff=lfs merge=binary -text
+*.[iI][gG][eE] -text
 # ipt
-*.[iI][pP][tT] filter=lfs diff=lfs merge=binary -text
+*.[iI][pP][tT] -text
 # iam
-*.[iI][aA][mM] filter=lfs diff=lfs merge=binary -text
+*.[iI][aA][mM] -text
 # lp
-*.[lL][pP] filter=lfs diff=lfs merge=binary -text
+*.[lL][pP] -text
 # ls
-*.[lL][sS] filter=lfs diff=lfs merge=binary -text
+*.[lL][sS] -text
 # shp
-*.[sS][hH][pP] filter=lfs diff=lfs merge=binary -text
+*.[sS][hH][pP] -text
 # aep
-*.[aA][eE][pP] filter=lfs diff=lfs merge=binary -text
+*.[aA][eE][pP] -text
 # psb
-*.[pP][sS][bB] filter=lfs diff=lfs merge=binary -text
+*.[pP][sS][bB] -text
 # edx
-*.[eE][dD][xX] filter=lfs diff=lfs merge=binary -text
+*.[eE][dD][xX] -text
 # cds
-*.[cC][dD][sS] filter=lfs diff=lfs merge=binary -text
+*.[cC][dD][sS] -text
 # exr
-*.[eE][xX][rR] filter=lfs diff=lfs merge=binary -text
+*.[eE][xX][rR] -text
 # bc
-*.[bB][cC] filter=lfs diff=lfs merge=binary -text
+*.[bB][cC] -text
 # 文档，Document
 # Microsoft Excel
 # xls
-*.[xX][lL][sS] filter=lfs diff=lfs merge=binary -text
+*.[xX][lL][sS] -text
 # xlsx
-*.[xX][lL][sS][xX] filter=lfs diff=lfs merge=binary -text
+*.[xX][lL][sS][xX] -text
 # xslsm
-*.[xX][sS][lL][sS][mM] filter=lfs diff=lfs merge=binary -text
+*.[xX][sS][lL][sS][mM] -text
 # xlt
-*.[xX][lL][tT] filter=lfs diff=lfs merge=binary -text
+*.[xX][lL][tT] -text
 # xltx
-*.[xX][lL][tT][xX] filter=lfs diff=lfs merge=binary -text
+*.[xX][lL][tT][xX] -text
 # xltm
-*.[xX][lL][tT][mM] filter=lfs diff=lfs merge=binary -text
+*.[xX][lL][tT][mM] -text
 # Microsoft powperpoint
 # ppt
-*.[pP][pP][tT] filter=lfs diff=lfs merge=binary -text
+*.[pP][pP][tT] -text
 # pptx
-*.[pP][pP][tT][xX] filter=lfs diff=lfs merge=binary -text
+*.[pP][pP][tT][xX] -text
 # pps
-*.[pP][pP][sS] filter=lfs diff=lfs merge=binary -text
+*.[pP][pP][sS] -text
 # ppsx
-*.[pP][pP][sS][xX] filter=lfs diff=lfs merge=binary -text
+*.[pP][pP][sS][xX] -text
 # ppsm
-*.[pP][pP][sS][mM] filter=lfs diff=lfs merge=binary -text
+*.[pP][pP][sS][mM] -text
 # pptm
-*.[pP][pP][tT][mM] filter=lfs diff=lfs merge=binary -text
+*.[pP][pP][tT][mM] -text
 # pot
-*.[pP][oO][tT] filter=lfs diff=lfs merge=binary -text
+*.[pP][oO][tT] -text
 # potm
-*.[pP][oO][tT][mM] filter=lfs diff=lfs merge=binary -text
+*.[pP][oO][tT][mM] -text
 # Microsoft word
 # doc
-*.[dD][oO][cC] filter=lfs diff=lfs merge=binary -text
+*.[dD][oO][cC] -text
 # docx
-*.[dD][oO][cC][xX] filter=lfs diff=lfs merge=binary -text
+*.[dD][oO][cC][xX] -text
 # docm
-*.[dD][oO][cC][mM] filter=lfs diff=lfs merge=binary -text
+*.[dD][oO][cC][mM] -text
 # dot
-*.[dD][oO][tT] filter=lfs diff=lfs merge=binary -text
+*.[dD][oO][tT] -text
 # dotx
-*.[dD][oO][tT][xX] filter=lfs diff=lfs merge=binary -text
+*.[dD][oO][tT][xX] -text
 # dotm
-*.[dD][oO][tT][mM] filter=lfs diff=lfs merge=binary -text
+*.[dD][oO][tT][mM] -text
 # Apple keynotes
 # key
-*.[kK][eE][yY] filter=lfs diff=lfs merge=binary -text
+*.[kK][eE][yY] -text
 # Apple pages
 # pages, apple
-*.[pP][aA][gG][eE][sS] filter=lfs diff=lfs merge=binary -text
+*.[pP][aA][gG][eE][sS] -text
 # Apple numbers
 # numbers, apple
-*.[nN][uU][mM][bB][eE][rR][sS] filter=lfs diff=lfs merge=binary -text
+*.[nN][uU][mM][bB][eE][rR][sS] -text
 # 电子书，Book
 # chm
-*.[cC][hH][mM] filter=lfs diff=lfs merge=binary -text
+*.[cC][hH][mM] -text
 # mobi
-*.[mM][oO][bB][iI] filter=lfs diff=lfs merge=binary -text
+*.[mM][oO][bB][iI] -text
 # epub
-*.[eE][pP][uU][bB] filter=lfs diff=lfs merge=binary -text
+*.[eE][pP][uU][bB] -text
 # azw
-*.[aA][zZ][wW] filter=lfs diff=lfs merge=binary -text
+*.[aA][zZ][wW] -text
 # azw3
-*.[aA][zZ][wW]3 filter=lfs diff=lfs merge=binary -text
+*.[aA][zZ][wW]3 -text
 # iba
-*.[iI][bB][aA] filter=lfs diff=lfs merge=binary -text
+*.[iI][bB][aA] -text
 # lrs
-*.[lL][rR][sS] filter=lfs diff=lfs merge=binary -text
+*.[lL][rR][sS] -text
 # lrf
-*.[lL][rR][fF] filter=lfs diff=lfs merge=binary -text
+*.[lL][rR][fF] -text
 # lrx
-*.[lL][rR][xX] filter=lfs diff=lfs merge=binary -text
+*.[lL][rR][xX] -text
 # djvu
-*.[dD][jJ][vV][uU] filter=lfs diff=lfs merge=binary -text
+*.[dD][jJ][vV][uU] -text
 # lit
-*.[lL][iI][tT] filter=lfs diff=lfs merge=binary -text
+*.[lL][iI][tT] -text
 # rft
-*.[rR][fF][tT] filter=lfs diff=lfs merge=binary -text
+*.[rR][fF][tT] -text
 # cbr
-*.[cC][bB][rR] filter=lfs diff=lfs merge=binary -text
+*.[cC][bB][rR] -text
 # cbz
-*.[cC][bB][zZ] filter=lfs diff=lfs merge=binary -text
+*.[cC][bB][zZ] -text
 # cb7
-*.[cC][bB]7 filter=lfs diff=lfs merge=binary -text
+*.[cC][bB]7 -text
 # cbt
-*.[cC][bB][tT] filter=lfs diff=lfs merge=binary -text
+*.[cC][bB][tT] -text
 # cba
-*.[cC][bB][aA] filter=lfs diff=lfs merge=binary -text
+*.[cC][bB][aA] -text
 # pdb
-*.[pP][dD][bB] filter=lfs diff=lfs merge=binary -text
+*.[pP][dD][bB] -text
 # 字体，font
 # ttf
-*.[tT][tT][fF] filter=lfs diff=lfs merge=binary -text
+*.[tT][tT][fF] -text
 # otf
-*.[oO][tT][fF] filter=lfs diff=lfs merge=binary -text
+*.[oO][tT][fF] -text
 # woff
-*.[wW][oO][fF][fF] filter=lfs diff=lfs merge=binary -text
+*.[wW][oO][fF][fF] -text
 # woff2
-*.[wW][oO][fF][fF]2 filter=lfs diff=lfs merge=binary -text
+*.[wW][oO][fF][fF]2 -text
 # 翻译，translate
 # po
-*.[pP][oO] filter=lfs diff=lfs merge=binary -text
+*.[pP][oO] -text
 # 无后缀文件，non-suffix files
-Chromium[[:space:]]Embedded[[:space:]]Framework filter=lfs diff=lfs merge=binary -text
-Electron[[:space:]]Framework filter=lfs diff=lfs merge=binary -text
-ispc filter=lfs diff=lfs merge=binary -text
-node-bifrost filter=lfs diff=lfs merge=binary -text
-phonon_bundle filter=lfs diff=lfs merge=binary -text
-UnrealGame filter=lfs diff=lfs merge=binary -text
-UnrealGame-IOS-Shipping filter=lfs diff=lfs merge=binary -text
-UnrealGame-LinuxAArch64-DebugGame filter=lfs diff=lfs merge=binary -text
-UnrealGame-Linux-DebugGame filter=lfs diff=lfs merge=binary -text
-UnrealGame-IOS-DebugGame filter=lfs diff=lfs merge=binary -text
-UnrealGame-LinuxAArch64-Shipping filter=lfs diff=lfs merge=binary -text
-UnrealGame-Linux-Shipping filter=lfs diff=lfs merge=binary -text
-EpicWebHelper filter=lfs diff=lfs merge=binary -text
-mna filter=lfs diff=lfs merge=binary -text
-hippy filter=lfs diff=lfs merge=binary -text
-apollo filter=lfs diff=lfs merge=binary -text
-gcloud filter=lfs diff=lfs merge=binary -text
-gcloudcore filter=lfs diff=lfs merge=binary -text
-txliteavsdk_liveplay filter=lfs diff=lfs merge=binary -text
-beetalksdk filter=lfs diff=lfs merge=binary -text
-grecordersdk filter=lfs diff=lfs merge=binary -text
-midasiapsdk filter=lfs diff=lfs merge=binary -text
-beaconapi_base filter=lfs diff=lfs merge=binary -text
-beaconapi_log filter=lfs diff=lfs merge=binary -text
-beaconapi_speed filter=lfs diff=lfs merge=binary -text
-fbsdkcorekit filter=lfs diff=lfs merge=binary -text
-fbsdkloginkit filter=lfs diff=lfs merge=binary -text
-fbsdksharekit filter=lfs diff=lfs merge=binary -text
-pvrtextoolcli filter=lfs diff=lfs merge=binary -text
-fbuildworker filter=lfs diff=lfs merge=binary -text
-fbuild filter=lfs diff=lfs merge=binary -text
-reflectionprobe_day filter=lfs diff=lfs merge=binary -text
-reflection filter=lfs diff=lfs merge=binary -text
-sublime filter=lfs diff=lfs merge=binary -text
-adjustsdk filter=lfs diff=lfs merge=binary -text
-grecorder filter=lfs diff=lfs merge=binary -text
-wsjpaysdk filter=lfs diff=lfs merge=binary -text
-bugly filter=lfs diff=lfs merge=binary -text
-ntvsdk filter=lfs diff=lfs merge=binary -text
-elvachatservicesdk filter=lfs diff=lfs merge=binary -text
-whatevergreen filter=lfs diff=lfs merge=binary -text
-awscore filter=lfs diff=lfs merge=binary -text
-awss3 filter=lfs diff=lfs merge=binary -text
-dedicatedsvr filter=lfs diff=lfs merge=binary -text
-awscognitoidentityprovider filter=lfs diff=lfs merge=binary -text
-awscognito filter=lfs diff=lfs merge=binary -text
-gsdk filter=lfs diff=lfs merge=binary -text
-appsflyerlib filter=lfs diff=lfs merge=binary -text
-xlua filter=lfs diff=lfs merge=binary -text
-firebaseanalytics filter=lfs diff=lfs merge=binary -text
-tdatamaster filter=lfs diff=lfs merge=binary -text
-vksdkframework filter=lfs diff=lfs merge=binary -text
-bolts filter=lfs diff=lfs merge=binary -text
-tencentopenapi filter=lfs diff=lfs merge=binary -text
-msdkdns filter=lfs diff=lfs merge=binary -text
-tdr filter=lfs diff=lfs merge=binary -text
-kakaoopensdk filter=lfs diff=lfs merge=binary -text
-googleinterchangeutilities filter=lfs diff=lfs merge=binary -text
-googleiphoneutilities filter=lfs diff=lfs merge=binary -text
-googleutilities filter=lfs diff=lfs merge=binary -text
-ffmpeg filter=lfs diff=lfs merge=binary -text
-sdwebimage filter=lfs diff=lfs merge=binary -text
-upm-macos filter=lfs diff=lfs merge=binary -text
-upm-linux filter=lfs diff=lfs merge=binary -text
-usymtool filter=lfs diff=lfs merge=binary -text
-qtskdb filter=lfs diff=lfs merge=binary -text
-linuxplayer filter=lfs diff=lfs merge=binary -text
-texturepacker filter=lfs diff=lfs merge=binary -text
-age filter=lfs diff=lfs merge=binary -text
-ageaction filter=lfs diff=lfs merge=binary -text
-perfetto_unittests filter=lfs diff=lfs merge=binary -text
-qtsvfs filter=lfs diff=lfs merge=binary -text
-gdbserver filter=lfs diff=lfs merge=binary -text
-glazed_patio filter=lfs diff=lfs merge=binary -text
-usymtool32 filter=lfs diff=lfs merge=binary -text
-unityfbxsdknative filter=lfs diff=lfs merge=binary -text
-pedump filter=lfs diff=lfs merge=binary -text
-firebasemessaging filter=lfs diff=lfs merge=binary -text
-aksoundengine filter=lfs diff=lfs merge=binary -text
-mqttframework filter=lfs diff=lfs merge=binary -text
-firebaseinstanceid filter=lfs diff=lfs merge=binary -text
-libpvrtccompressor filter=lfs diff=lfs merge=binary -text
-grobot filter=lfs diff=lfs merge=binary -text
-clover configurator filter=lfs diff=lfs merge=binary -text
-kakaogamesdk filter=lfs diff=lfs merge=binary -text
-normalsfittingtexture_dds filter=lfs diff=lfs merge=binary -text
-minimsdk filter=lfs diff=lfs merge=binary -text
-texturecompress filter=lfs diff=lfs merge=binary -text
-tdbms filter=lfs diff=lfs merge=binary -text
-xgmtacloud filter=lfs diff=lfs merge=binary -text
-applealc filter=lfs diff=lfs merge=binary -text
-xml2bin filter=lfs diff=lfs merge=binary -text
-testlibresloader filter=lfs diff=lfs merge=binary -text
-shaderlabparser filter=lfs diff=lfs merge=binary -text
-resprint filter=lfs diff=lfs merge=binary -text
-realtekrtl8111 filter=lfs diff=lfs merge=binary -text
-sparkle filter=lfs diff=lfs merge=binary -text
-mtpclientconsole filter=lfs diff=lfs merge=binary -text
-unity_builtin_extra filter=lfs diff=lfs merge=binary -text
-librapidxml filter=lfs diff=lfs merge=binary -text
-itopdns filter=lfs diff=lfs merge=binary -text
-vc2013 filter=lfs diff=lfs merge=binary -text
-compiler filter=lfs diff=lfs merge=binary -text
-libpag filter=lfs diff=lfs merge=binary -text
-kgvmp filter=lfs diff=lfs merge=binary -text
-escher filter=lfs diff=lfs merge=binary -text
-tavaovgametemplate filter=lfs diff=lfs merge=binary -text
-curl filter=lfs diff=lfs merge=binary -text
-privilegesdk filter=lfs diff=lfs merge=binary -text
-aapt filter=lfs diff=lfs merge=binary -text
-ui_minggwen filter=lfs diff=lfs merge=binary -text
-simpleperf filter=lfs diff=lfs merge=binary -text
-zstd filter=lfs diff=lfs merge=binary -text
-msdkcore filter=lfs diff=lfs merge=binary -text
-msdksystem filter=lfs diff=lfs merge=binary -text
-msdkxg filter=lfs diff=lfs merge=binary -text
-msdkwebview filter=lfs diff=lfs merge=binary -text
-msdkwechat filter=lfs diff=lfs merge=binary -text
-msdkqq filter=lfs diff=lfs merge=binary -text
-msdkadapter filter=lfs diff=lfs merge=binary -text
-msdkauthgamecenter filter=lfs diff=lfs merge=binary -text
-imsdkcorekit filter=lfs diff=lfs merge=binary -text
-imsdkwebview filter=lfs diff=lfs merge=binary -text
-imsdkgarena filter=lfs diff=lfs merge=binary -text
-imsdkextendnetmarble filter=lfs diff=lfs merge=binary -text
-imsdkbugly filter=lfs diff=lfs merge=binary -text
-imsdkextendtool filter=lfs diff=lfs merge=binary -text
-imsdkstatadjust filter=lfs diff=lfs merge=binary -text
-imsdkvk filter=lfs diff=lfs merge=binary -text
-imsdknotice filter=lfs diff=lfs merge=binary -text
-imsdkfriendfacebook filter=lfs diff=lfs merge=binary -text
-imsdkfriendsms filter=lfs diff=lfs merge=binary -text
-imsdkloginapple filter=lfs diff=lfs merge=binary -text
-imsdkfriendwhatsapp filter=lfs diff=lfs merge=binary -text
-imsdkstatbeacon filter=lfs diff=lfs merge=binary -text
-imsdkloginfacebook filter=lfs diff=lfs merge=binary -text
-imsdkfriendline filter=lfs diff=lfs merge=binary -text
-imsdkfriendsystem filter=lfs diff=lfs merge=binary -text
-imsdkauthfacebook filter=lfs diff=lfs merge=binary -text
-imsdkstatappsflyer filter=lfs diff=lfs merge=binary -text
-nmgsdkcorekit filter=lfs diff=lfs merge=binary -text
-nmgsdkpromotionkit filter=lfs diff=lfs merge=binary -text
-nmgsdkcommonwebviewkit filter=lfs diff=lfs merge=binary -text
-nmgsdkreviewkit filter=lfs diff=lfs merge=binary -text
-nmgsdknoticekit filter=lfs diff=lfs merge=binary -text
-nmgsdkcustomersupportkit filter=lfs diff=lfs merge=binary -text
-nmgsdktermsofservicekit filter=lfs diff=lfs merge=binary -text
-nmgsdktermsofservicekit filter=lfs diff=lfs merge=binary -text
-nmgsdkkakao2kit filter=lfs diff=lfs merge=binary -text
-nmgsdksigninwithapplekit filter=lfs diff=lfs merge=binary -text
-genrb  filter=lfs diff=lfs merge=binary -text
-mtlpp  filter=lfs diff=lfs merge=binary -text
-airdiff  filter=lfs diff=lfs merge=binary -text
-derb  filter=lfs diff=lfs merge=binary -text
-pkgdata  filter=lfs diff=lfs merge=binary -text
-ue4_denorm  filter=lfs diff=lfs merge=binary -text
-icupkg  filter=lfs diff=lfs merge=binary -text
-gendict  filter=lfs diff=lfs merge=binary -text
-makeconv  filter=lfs diff=lfs merge=binary -text
-gennorm2  filter=lfs diff=lfs merge=binary -text
-gencmn  filter=lfs diff=lfs merge=binary -text
-genccode  filter=lfs diff=lfs merge=binary -text
-unrealatos  filter=lfs diff=lfs merge=binary -text
-ptdbtool_macos_lipobin  filter=lfs diff=lfs merge=binary -text
-cmake  filter=lfs diff=lfs merge=binary -text
-dump_syms  filter=lfs diff=lfs merge=binary -text
-ue4editorservices  filter=lfs diff=lfs merge=binary -text
-dsymexporter  filter=lfs diff=lfs merge=binary -text
-svn  filter=lfs diff=lfs merge=binary -text
-svnbench  filter=lfs diff=lfs merge=binary -text
-svnmucc  filter=lfs diff=lfs merge=binary -text
-svnrdump  filter=lfs diff=lfs merge=binary -text
-svnsync  filter=lfs diff=lfs merge=binary -text
-svnserve  filter=lfs diff=lfs merge=binary -text
-svnadmin  filter=lfs diff=lfs merge=binary -text
-svnlook  filter=lfs diff=lfs merge=binary -text
-svndumpfilter  filter=lfs diff=lfs merge=binary -text
-svnfsfs  filter=lfs diff=lfs merge=binary -text
-svnversion  filter=lfs diff=lfs merge=binary -text
-arcoreimg  filter=lfs diff=lfs merge=binary -text
-mono-sgen64  filter=lfs diff=lfs merge=binary -text
-mono-xcompiler  filter=lfs diff=lfs merge=binary -text
-p4  filter=lfs diff=lfs merge=binary -text
-unrealsync  filter=lfs diff=lfs merge=binary -text
-minidumpdiagnostics  filter=lfs diff=lfs merge=binary -text
-unrealversionselector-linux-shipping  filter=lfs diff=lfs merge=binary -text
-openvr  filter=lfs diff=lfs merge=binary -text
-unrealcefsubprocess  filter=lfs diff=lfs merge=binary -text
-phonon_bundle  filter=lfs diff=lfs merge=binary -text
-chromium  filter=lfs diff=lfs merge=binary -text
-ispc  filter=lfs diff=lfs merge=binary -text
-/ArcheryBattle_5_6_1/Saved/Cooked/Windows/ArcheryBattle_5_6_1/Content/ArrowTrail/Texture/T_FlowLoop.ubulk filter=lfs diff=lfs merge=lfs -text
-/ArcheryBattle_5_6_1/Saved/Cooked/Windows/ArcheryBattle_5_6_1/Content/ShaderArchive-Global-PCD3D_SM6-PCD3D_SM6.ushaderbytecode filter=lfs diff=lfs merge=lfs -text
-/ArcheryBattle_5_6_1/Saved/Cooked/Windows/ArcheryBattle_5_6_1/Metadata/ShaderLibrarySource/ShaderArchive-Global-PCD3D_SM6-PCD3D_SM6.ushaderbytecode filter=lfs diff=lfs merge=lfs -text
-/ArcheryBattle_5_6_1/Saved/Shaders/PCD3D_SM6-PCD3D_SM6/ShaderCode-Global-PCD3D_SM6-PCD3D_SM6.ushaderbytecode filter=lfs diff=lfs merge=lfs -text
-/ArcheryBattle_5_6_1/Saved/StagedBuilds/Windows/ArcheryBattle_5_6_1/Content/Paks/ArcheryBattle_5_6_1-Windows.ucas filter=lfs diff=lfs merge=lfs -text
+Chromium[[:space:]]Embedded[[:space:]]Framework -text
+Electron[[:space:]]Framework -text
+ispc -text
+node-bifrost -text
+phonon_bundle -text
+UnrealGame -text
+UnrealGame-IOS-Shipping -text
+UnrealGame-LinuxAArch64-DebugGame -text
+UnrealGame-Linux-DebugGame -text
+UnrealGame-IOS-DebugGame -text
+UnrealGame-LinuxAArch64-Shipping -text
+UnrealGame-Linux-Shipping -text
+EpicWebHelper -text
+mna -text
+hippy -text
+apollo -text
+gcloud -text
+gcloudcore -text
+txliteavsdk_liveplay -text
+beetalksdk -text
+grecordersdk -text
+midasiapsdk -text
+beaconapi_base -text
+beaconapi_log -text
+beaconapi_speed -text
+fbsdkcorekit -text
+fbsdkloginkit -text
+fbsdksharekit -text
+pvrtextoolcli -text
+fbuildworker -text
+fbuild -text
+reflectionprobe_day -text
+reflection -text
+sublime -text
+adjustsdk -text
+grecorder -text
+wsjpaysdk -text
+bugly -text
+ntvsdk -text
+elvachatservicesdk -text
+whatevergreen -text
+awscore -text
+awss3 -text
+dedicatedsvr -text
+awscognitoidentityprovider -text
+awscognito -text
+gsdk -text
+appsflyerlib -text
+xlua -text
+firebaseanalytics -text
+tdatamaster -text
+vksdkframework -text
+bolts -text
+tencentopenapi -text
+msdkdns -text
+tdr -text
+kakaoopensdk -text
+googleinterchangeutilities -text
+googleiphoneutilities -text
+googleutilities -text
+ffmpeg -text
+sdwebimage -text
+upm-macos -text
+upm-linux -text
+usymtool -text
+qtskdb -text
+linuxplayer -text
+texturepacker -text
+age -text
+ageaction -text
+perfetto_unittests -text
+qtsvfs -text
+gdbserver -text
+glazed_patio -text
+usymtool32 -text
+unityfbxsdknative -text
+pedump -text
+firebasemessaging -text
+aksoundengine -text
+mqttframework -text
+firebaseinstanceid -text
+libpvrtccompressor -text
+grobot -text
+clover configurator -text
+kakaogamesdk -text
+normalsfittingtexture_dds -text
+minimsdk -text
+texturecompress -text
+tdbms -text
+xgmtacloud -text
+applealc -text
+xml2bin -text
+testlibresloader -text
+shaderlabparser -text
+resprint -text
+realtekrtl8111 -text
+sparkle -text
+mtpclientconsole -text
+unity_builtin_extra -text
+librapidxml -text
+itopdns -text
+vc2013 -text
+compiler -text
+libpag -text
+kgvmp -text
+escher -text
+tavaovgametemplate -text
+curl -text
+privilegesdk -text
+aapt -text
+ui_minggwen -text
+simpleperf -text
+zstd -text
+msdkcore -text
+msdksystem -text
+msdkxg -text
+msdkwebview -text
+msdkwechat -text
+msdkqq -text
+msdkadapter -text
+msdkauthgamecenter -text
+imsdkcorekit -text
+imsdkwebview -text
+imsdkgarena -text
+imsdkextendnetmarble -text
+imsdkbugly -text
+imsdkextendtool -text
+imsdkstatadjust -text
+imsdkvk -text
+imsdknotice -text
+imsdkfriendfacebook -text
+imsdkfriendsms -text
+imsdkloginapple -text
+imsdkfriendwhatsapp -text
+imsdkstatbeacon -text
+imsdkloginfacebook -text
+imsdkfriendline -text
+imsdkfriendsystem -text
+imsdkauthfacebook -text
+imsdkstatappsflyer -text
+nmgsdkcorekit -text
+nmgsdkpromotionkit -text
+nmgsdkcommonwebviewkit -text
+nmgsdkreviewkit -text
+nmgsdknoticekit -text
+nmgsdkcustomersupportkit -text
+nmgsdktermsofservicekit -text
+nmgsdktermsofservicekit -text
+nmgsdkkakao2kit -text
+nmgsdksigninwithapplekit -text
+genrb -text
+mtlpp -text
+airdiff -text
+derb -text
+pkgdata -text
+ue4_denorm -text
+icupkg -text
+gendict -text
+makeconv -text
+gennorm2 -text
+gencmn -text
+genccode -text
+unrealatos -text
+ptdbtool_macos_lipobin -text
+cmake -text
+dump_syms -text
+ue4editorservices -text
+dsymexporter -text
+svn -text
+svnbench -text
+svnmucc -text
+svnrdump -text
+svnsync -text
+svnserve -text
+svnadmin -text
+svnlook -text
+svndumpfilter -text
+svnfsfs -text
+svnversion -text
+arcoreimg -text
+mono-sgen64 -text
+mono-xcompiler -text
+p4 -text
+unrealsync -text
+minidumpdiagnostics -text
+unrealversionselector-linux-shipping -text
+openvr -text
+unrealcefsubprocess -text
+phonon_bundle -text
+chromium -text
+ispc -text
+/ArcheryBattle_5_6_1/Saved/Cooked/Windows/ArcheryBattle_5_6_1/Content/ArrowTrail/Texture/T_FlowLoop.ubulk -text
+/ArcheryBattle_5_6_1/Saved/Cooked/Windows/ArcheryBattle_5_6_1/Content/ShaderArchive-Global-PCD3D_SM6-PCD3D_SM6.ushaderbytecode -text
+/ArcheryBattle_5_6_1/Saved/Cooked/Windows/ArcheryBattle_5_6_1/Metadata/ShaderLibrarySource/ShaderArchive-Global-PCD3D_SM6-PCD3D_SM6.ushaderbytecode -text
+/ArcheryBattle_5_6_1/Saved/Shaders/PCD3D_SM6-PCD3D_SM6/ShaderCode-Global-PCD3D_SM6-PCD3D_SM6.ushaderbytecode -text
+/ArcheryBattle_5_6_1/Saved/StagedBuilds/Windows/ArcheryBattle_5_6_1/Content/Paks/ArcheryBattle_5_6_1-Windows.ucas -text
