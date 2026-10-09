@@ -5,10 +5,13 @@
 
 **第三人称越肩视角** · **双人协作** · **密室压迫感** · **宗教恐怖氛围** · **UE 写实暗黑画质**
 
+> 🎮 **只想直接玩，不想碰引擎？** → **[点此下载 Windows 免安装成品](https://github.com/ChaserCY/Sky_Sanctum_The_Hollow/releases/latest)**
+
 ---
 
 ## 目录
 
+- [下载试玩](#下载试玩)
 - [项目概览](#项目概览)
 - [世界观与核心体验](#世界观与核心体验)
 - [关卡流程](#关卡流程)
@@ -26,6 +29,25 @@
 - [工程目录结构](#工程目录结构)
 - [开发环境](#开发环境)
 - [第三方资产说明](#第三方资产说明)
+
+---
+
+## 下载试玩
+
+本项目已打包为 **Windows 免安装成品**，**无需安装 Unreal Engine**，下载解压后双击即可游玩：
+
+| 内容 | 地址 |
+| --- | --- |
+| **⬇️ 下载游戏**（Windows 64 位，约 4.6 GB） | [**Releases 下载页**](https://github.com/ChaserCY/Sky_Sanctum_The_Hollow/releases/latest) |
+| 成品仓库（含一键下载脚本） | [ChaserCY/Sky_Sanctum_The_Hollow](https://github.com/ChaserCY/Sky_Sanctum_The_Hollow) |
+| 源码工程 | 即本仓库，需用 UE 5.6 打开 `ArcheryBattle_5_6_1.uproject` |
+
+游戏本体已切分为 **3 个分卷**（GitHub 单个附件上限 2GB，三个都要下载）。推荐直接用成品仓库里的
+[`download.bat`](https://github.com/ChaserCY/Sky_Sanctum_The_Hollow/blob/main/download.bat) 一键搞定：
+双击运行后自动下载全部分卷 → 逐卷校验 SHA-256 → 合并 → 解压，**支持断点续传**，中途失败重跑即可。
+
+- **运行要求**：Windows 10 / 11 64 位，支持 DirectX 12 的显卡，解压后约 4.9 GB 磁盘空间
+- **联机方式**：主菜单创建房间（Listen Server）→ 另一台电脑通过「搜索会话」自动发现，或「输入 IP」直连主机内网 IP；两台机器需处于同一局域网
 
 ---
 
